@@ -1,0 +1,99 @@
+
+/* CSS Variables */
+:root {
+    --primary-text-color: #181a1c;
+    --secondary-text-color: #004aad;
+    --title-text-color: #1f2937;
+    --paragraph-text-color: #6b7280;
+    --accent-color: #02abe4;
+    --accent-color-dark: #094e94;
+    --nav-bottom-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+    --primary-button-color: #02abe4;
+    --secondary-button-color: #0ca1d3;
+    --secondary-button-hover-color: #117da1;
+    --main-contact-icon_text-color: #111827;
+    --main-container-color: #e3e6e6;
+    --main-container-box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --small-container-box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --primary-footer-text-color: #545a61;
+    --secondary-footer-text-color: #999999;
+    --footer-icon-color: #545a61;
+
+}
+
+
+
+/* Conatct main container  */
+
+.maindiv-contact {
+
+    padding: 70px 0;
+    background-image: url("Images & Icons/bgimg1.jpg");
+    background-size: cover;
+}
+
+/* Contact content container 2nd main  */
+
+.maindiv2-contact {
+
+    /* height: auto;
+    max-width: 1570px; */
+
+    border-radius: 10px;
+    padding: 64px 48px;
+    border: 1px solid #e9ebee;
+    background-color: #f3f4f6;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
+    margin-inline: auto;
+}
+
+
+
+
+/* main contact h3 */
+.maindiv-contact h3 {
+    text-align: center;
+    /* font-size: 35px; */
+    line-height: 38px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--main-contact-icon_text-color);
+    margin: 0;
+}
+
+
+/* Contact img and link-icon */
+
+.contact-img {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-img img {
+    /* width: 200px; */
+    margin: 20px 107px;
+    padding: 8px 0;
+}
+
+.main-footer-link-ico {
+    justify-content: center;
+    /* gap: 40px; */
+}
+
+
+.main-footer-link-ico i {
+    color: var(--main-contact-icon_text-color);
+    /* font-size: 36px; */
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+
+.main-footer-link-ico i:hover {
+    color: var(--secondary-text-color);
+}
+
+

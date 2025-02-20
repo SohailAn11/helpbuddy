@@ -1,0 +1,964 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Mulish", serif;
+}
+
+body {
+    /* overflow-x: hidden; */
+    margin: 0;
+    line-height: inherit;
+    background: #ffffff;
+    /* background: radial-gradient(circle, rgba(55, 183, 195, 1) 0%, rgba(255, 255, 255, 1) 74%); */
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eaeaea;
+    margin: 0px;
+}
+
+
+
+/* CSS Variables */
+
+:root {
+    --primary-text-color: #181a1c;
+    --secondary-text-color: #004aad;
+    --title-text-color: #1f2937;
+    --paragraph-text-color: #6b7280;
+    --accent-color: #02abe4;
+    --accent-color-dark: #094e94;
+    --nav-bottom-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+    --primary-button-color: #02abe4;
+    --secondary-button-color: #0ca1d3;
+    --secondary-button-hover-color: #117da1;
+    --main-contact-icon_text-color: #111827;
+    --main-container-color: #e3e6e6;
+    --main-container-box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --small-container-box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --primary-footer-text-color: #545a61;
+    --secondary-footer-text-color: #999999;
+    --footer-icon-color: #545a61;
+
+}
+
+/* Utility Classes and Common CSS */
+
+.flex {
+    display: flex;
+    align-items: center
+}
+
+.border-small-container {
+    border: 1px solid #e9ebee
+}
+
+
+.active {
+    box-sizing: border-box;
+    text-decoration: 2px underline var(--secondary-text-color);
+    padding: 7px;
+
+}
+
+.sticky {
+    background-color: #ffffff;
+    z-index: 9;
+    position: sticky;
+    top: 0;
+}
+
+
+
+/* nav1 links hover effect */
+
+.padding-hover {
+    padding: 7px;
+    border: 2px solid transparent;
+}
+
+
+h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--title-text-color);
+}
+
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--title-text-color);
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6b7280;
+}
+
+
+.Introduction {
+    max-width: 416px;
+    height: 144px;
+    margin: 8px 0px 0px 0px;
+}
+
+/* maindiv h3 text style */
+main h3 {
+    /* width: 100vw; */
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #111827;
+    margin: 30px 0;
+    /* text-align: center; */
+}
+
+
+/* Start Watching  and download button common css */
+
+.cbutton {
+    margin-bottom: 40px;
+}
+
+.cbutton a {
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #0ca1d3;
+    border: none;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px 12px;
+
+}
+
+
+.cbutton a:hover {
+
+    background-color: #117da1;
+
+}
+
+/* Header section */
+
+/* Topheader*/
+
+.topheader {
+    background-color: var(--accent-color);
+    justify-content: center;
+    height: 25px;
+
+}
+
+.topheader p {
+    color: #ffffff;
+    font-family: "Mulish", serif;
+    font-size: 14px;
+}
+
+.topheader a {
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* Navbar nav1 */
+
+.nav1 {
+    height: 70px;
+    justify-content: space-between;
+    width: auto;
+    padding: 16px 0px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* nav1 logo */
+
+.logo {
+    height: 65px;
+    width: 125px;
+    cursor: pointer;
+    padding-bottom: 15px
+}
+
+.logo-container {
+    padding-left: 30px;
+}
+
+
+
+/* nav1 navlinks */
+
+.nav1 ul {
+    list-style-type: none;
+}
+
+
+.nav1 ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Mulish", serif;
+    color: var(--primary-text-color);
+    line-height: 24px;
+    font-weight: 600;
+    font-style: normal;
+    /* transition: all 0.3s ease-in-out; */
+
+
+}
+
+.anchor {
+    padding: 5px 0;
+}
+
+.nav1 .nav-toggle {
+    display: none;
+}
+
+/* nav1 courses drop down menu */
+
+
+
+ul li:hover .drop-container {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.2s ease 0.3s;
+}
+
+.drop-container .drop-content h3 {
+    color: var(--primary-text-color);
+    font-size: 20px;
+    margin: 5px 0px;
+    text-align: start;
+}
+
+.drop-content .menu {
+    margin: 5px;
+    text-align: start;
+}
+
+.drop-content {
+    margin-left: 10px;
+}
+
+
+
+.drop-content ul li {
+    position: relative;
+    cursor: pointer;
+}
+
+.drop-content ul li a {
+    font-size: 15px;
+    color: var(--primary-text-color);
+}
+
+/* nav1 courses drop down menu hover effect*/
+
+.drop-content ul li a:hover {
+    border-bottom: 2px solid var(--primary-text-color);
+}
+
+
+/* Tutorial drop down list  */
+
+
+
+ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.2s ease 0.3s;
+}
+
+
+.dropdown ul li a {
+    display: block;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+}
+
+.ca {
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.cssa {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+
+
+.dropdown ul li a {
+    padding-left: 15px;
+    color: var(--primary-text-color);
+    font-size: 16px;
+}
+
+
+
+/* Tutorial drop down list hover effect */
+
+.dropdown ul li:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+
+/* Nav1 button */
+
+.navbutton {
+    margin-left: 50px;
+    padding-right: 30px;
+    gap: 3px;
+
+}
+
+.navbutton a button {
+
+    height: 40px;
+    width: 90px;
+
+    background-color: var(--accent-color);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+}
+
+
+/* Nav1 button hover effect */
+.nav1 a button:hover {
+    background-color: #ffffff;
+    color: #02abe4;
+    border: 1px solid var(--accent-color);
+
+
+}
+
+.nav1 a button:target {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+
+/* Navbar nav2 */
+
+.nav2 {
+    box-shadow: var(--nav-bottom-box-shadow);
+    /* width: 100%; */
+    background-color: #ffffff;
+    justify-content: center;
+    height: 40px;
+}
+
+
+.ul-container {
+    width: 95%;
+    justify-content: center;
+}
+
+
+/* Nav2 icon  container*/
+
+.nav2 .home-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.nav2 .home-icon i {
+
+    height: 20px;
+    width: 20px;
+    color: var(--accent-color-dark);
+
+}
+
+/* nav2 list  */
+
+.ul-container ul {
+    width: 1100px;
+    height: 40px;
+    overflow-x: auto;
+    margin-inline: 10px;
+    gap: 27px;
+}
+
+.ul-container ul::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.nav2 ul li {
+    list-style: none;
+}
+
+.nav2 ul a {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--secondary-text-color);
+    font-family: "Mulish", serif;
+    font-weight: 600;
+    /* padding: 12px; */
+}
+
+.ul-container div {
+    padding-top: 2px;
+
+}
+
+.ul-container div i {
+    font-size: 1.3rem;
+    color: var(--accent-color-dark);
+}
+
+
+/* nav2 list hover  */
+.nav2 ul a:hover {
+    /* color: white; */
+    color: var(--accent-color);
+}
+
+.nav2 ul a:active {
+
+    color: var(--secondary-text-color);
+}
+
+
+/* Main content  */
+/* Section1 Maindiv1 */
+/* title and image  */
+
+
+
+.section1 {
+    padding: 50px 0px;
+
+}
+
+.section1 .maindiv1 {
+
+    align-items: normal;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    height: 350px;
+    max-width: 1500px;
+    margin-inline: auto;
+}
+
+
+/* Section1 title and Introduction */
+
+.section1 .divleft {
+    /* height: 328px; */
+    max-width: 40vw;
+    padding-top: 10px;
+    align-items: center;
+    /* text-align: left; */
+}
+
+.section1 .divleft h2 span {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--secondary-text-color);
+}
+
+
+
+
+
+
+/* section 2,3,4,5 common CSS  */
+
+/* Box parent container  */
+.divparent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 50px 0;
+    /* margin-inline: 20px; */
+}
+
+
+/* All course Container box  */
+
+.divparent .box {
+    width: 364px;
+    height: 264px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.maindiv {
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+    margin-inline: auto;
+    max-width: 1570px;
+    border: 1px solid #eaeaea;
+
+}
+
+
+/* Section 2 */
+/* Main course container  */
+
+/* all courses */
+
+
+.section2 {
+    margin: 50px 0;
+}
+
+.section2 .divparent .left {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses1.0.png");
+    background-size: cover;
+}
+
+
+.section2 .divparent .center {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-webdev2.0.png");
+    background-size: cover;
+}
+
+
+.section2 .divparent .right {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses3.png");
+    background-size: cover;
+}
+
+
+.section2 .divparent .left2 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses4.png");
+    background-size: cover;
+
+
+}
+
+.section2 .divparent .center2 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses5.png");
+    background-size: cover;
+
+}
+
+
+.section2 .divparent .right2 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses6.png");
+    background-size: cover;
+
+}
+
+
+
+/* Section 3 */
+/* Main course container  */
+
+/* all courses */
+
+.section3 {
+    margin: 50px 0;
+}
+
+.section3 .divparent .left {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses7.png");
+    background-size: cover;
+}
+
+
+.section3 .divparent .center {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses8.png");
+    background-size: cover;
+}
+
+
+.section3 .divparent .right {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses9.png");
+    background-size: cover;
+}
+
+
+.section3 .divparent .left2 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses10.png");
+    background-size: cover;
+
+
+}
+
+.section3 .divparent .center2 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses11.png");
+    background-size: cover;
+
+}
+
+
+.section3 .divparent .right2 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses12.png");
+    background-size: cover;
+
+}
+
+.section3 .divparent .left3 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses13.png");
+    background-size: cover;
+
+
+}
+
+.section3 .divparent .center3 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses14.png");
+    background-size: cover;
+
+
+}
+
+
+.section3 .divparent .right3 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses15.png");
+    background-size: cover;
+
+
+}
+
+
+
+/* Section 4 */
+/* Main course container  */
+
+/* all courses */
+
+.section4 {
+    margin: 50px 0;
+}
+
+.section4 .divparent .left {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses16.png");
+    background-size: cover;
+
+
+}
+
+.section4 .divparent .center {
+    /* border: 2px solid #6b729b; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses17.png");
+    background-size: cover;
+
+
+}
+
+
+.section4 .divparent .right {
+    /* border: 2px solid #464d91; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses18.png");
+    background-size: cover;
+
+
+}
+
+
+
+.section4 .divparent .left2 {
+    /* border: 2px solid #398f69; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses19.png");
+    background-size: cover;
+
+
+}
+
+.section4 .divparent .center2 {
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses20.png");
+    background-size: cover;
+
+
+}
+
+
+.section4 .divparent .right2 {
+    /* border: 2px solid #464d91; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses21.png");
+    background-size: cover;
+
+}
+
+.section4 .divparent .left3 {
+    /* border: 2px solid #398f69; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses22.png");
+    background-size: cover;
+
+
+}
+
+.section4 .divparent .center3 {
+    /* border: 2px solid #6b729b; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses23.png");
+    background-size: cover;
+
+
+}
+
+
+.section4 .divparent .right3 {
+    /* border: 2px solid #464d91; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses24.png");
+    background-size: cover;
+
+
+}
+
+
+
+/* Section 5 */
+/* Main course container  */
+
+/* all courses */
+
+.section5 {
+    margin: 50px 0;
+}
+
+
+.section5 .divparent .left {
+    /* border: 2px solid #398f69; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses25.png");
+    background-size: cover;
+
+
+}
+
+.section5 .divparent .center {
+    /* border: 2px solid #6b729b; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses26.png");
+    background-size: cover;
+
+}
+
+
+.section5 .divparent .right {
+    /* border: 2px solid #464d91; */
+    border-radius: 10px;
+    background-image: url("Images & Icons/bg-courses27.png");
+    background-size: cover;
+
+
+}
+
+
+/* Footer section */
+footer {
+    background-color: #ffffff;
+    margin: 96px 0 96px 0px;
+    margin-inline: 5%;
+}
+
+
+/* Footer logo and link-icon  */
+/* Footer logo and ico container  */
+
+.footer-icons {
+
+    justify-content: space-between;
+    /* margin-inline: 5%; */
+    align-items: center;
+}
+
+
+/* footer logo  */
+.footer-logo {
+    color: #004aad;
+    font-size: 30px;
+    font-family: "Alatsi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* footer link ico  */
+
+
+.footer-link-ico {
+    gap: 20px;
+}
+
+.footer-link-ico i {
+    color: #545a61;
+    font-size: 25px;
+    font-weight: 400;
+    /* margin-inline: 10px; */
+    line-height: 24px;
+
+    /* display: flex;
+    justify-items: flex-end; */
+}
+
+
+
+
+/* Main footer section container  */
+/* Main footer container  */
+
+.maincontainer {
+    margin: 48px 0 0 0;
+}
+
+
+/* Conatainer 1  */
+.footer-container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    /* gap: 50px; */
+    max-width: 1246px;
+    margin-inline: auto;
+}
+
+
+/* Inside Container1 and Conatiner2  */
+/* Footer content  */
+
+.footer-content {
+    display: inline-block;
+    margin: 0px 50px;
+    margin-bottom: 30px;
+    /* width: 165px; */
+    width: 150px;
+
+
+}
+
+.footer-content h2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #545a61;
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+
+
+}
+
+.list li {
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* text-align: start; */
+    list-style-type: none;
+    /* padding: 7px 0px; */
+    margin: 20px 0;
+    font-size: 13px;
+    cursor: pointer;
+    /* font-weight: 400; */
+    /* color: #545a61; */
+    /* position: relative; */
+
+}
+
+.list li a {
+    color: #545a61;
+    text-decoration: none;
+
+}
+
+
+.list li a:hover {
+    /* color: rgb(255 255 255); */
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    color: #545a61;
+
+    /* text-decoration-thickness: 1px; */
+}
+
+
+/* Copyright Section  */
+
+.copyright {
+    margin-top: 60px;
+    /* position: absolute; */
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.copyright p {
+    font-size: 14px;
+    color: #545a61;
+    font-weight: 400;
+    font-family: "Mulish", serif;
+}

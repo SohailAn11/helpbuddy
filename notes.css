@@ -1,0 +1,240 @@
+/* CSS Variables */
+
+:root {
+    --primary-text-color: #181a1c;
+    --secondary-text-color: #004aad;
+    --title-text-color: #1f2937;
+    --paragraph-text-color: #6b7280;
+    --accent-color: #02abe4;
+    --accent-color-dark: #094e94;
+    --nav-bottom-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+    --primary-button-color: #02abe4;
+    --secondary-button-color: #0ca1d3;
+    --secondary-button-hover-color: #117da1;
+    --main-contact-icon_text-color: #111827;
+    --main-container-color: #e3e6e6;
+    --main-container-box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --small-container-box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --primary-footer-text-color: #545a61;
+    --secondary-footer-text-color: #999999;
+    --footer-icon-color: #545a61;
+
+}
+
+
+
+/* Notes all container common CSS  */
+
+/*maindiv container  */
+
+.maindiv-container {
+    margin: 50px 0;
+    margin-inline: auto;
+    max-width: 1570px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+
+}
+
+/* Notes paremt container  */
+
+.pdiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding: 0 0 50px 0; */
+    gap: 30px;
+}
+
+/* All notes container  */
+.pdiv .divnotes {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 260px;
+    width: 270px;
+    border-radius: 10px;
+    /* padding: 24px; */
+    border: 1px solid #e9ebee;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+ }
+
+
+/* Notes pdf container  */
+
+.notes1 {
+    background-image: url("Images & Icons/Notes1.png");
+    background-size: cover;
+ }
+
+.notes2 {
+    background-image: url("Images & Icons/Notes2.png");
+    background-size: cover;
+
+}
+
+.notes3{
+
+    background-image: url("Images & Icons/Notes3a.png");
+    background-size: cover;
+
+}
+
+.notes4 {
+
+    background-image: url("Images & Icons/Notes4a.png");
+    background-size: cover;
+
+}
+
+.notes5 {
+   
+    background-image: url("Images & Icons/Notes5.png");
+    background-size: cover;
+
+}
+
+.notes6 {
+   
+    background-image: url("Images & Icons/Notes6.png");
+    background-size: cover;
+
+}
+
+.notes7 {
+ 
+    background-image: url("Images & Icons/Notes7.png");
+    background-size: cover;
+
+}
+
+.notes8 {
+ 
+    background-image: url("Images & Icons/Notes8a.png");
+    background-size: cover;
+
+}
+
+.notes9 {
+ 
+    background-image: url("Images & Icons/Notes9a.png");
+    background-size: cover;
+
+}
+
+.notes10 {
+  
+    background-image: url("Images & Icons/Notes10a.png");
+    background-size: cover;
+
+}
+
+.notes11 {
+
+    background-image: url("Images & Icons/Notes11a.png");
+    background-size: cover;
+
+}
+
+.notes12 {
+ 
+    background-image: url("Images & Icons/Notes12a.png");
+    background-size: cover;
+
+}
+
+
+.notes13 {
+ 
+    background-image: url("Images & Icons/Notes13.png");
+    background-size: cover;
+
+}
+
+.notes14 {
+
+    background-image: url("Images & Icons/Notes14.png");
+    background-size: cover;
+
+}
+
+
+
+.notes15 {
+  
+    background-image: url("Images & Icons/Notes15a.png");
+    background-size: cover;
+
+}
+
+.notes16 {
+ 
+    background-image: url("Images & Icons/Notes16a.png");
+    background-size: cover;
+
+}
+
+.notes17 {
+  
+    background-image: url("Images & Icons/Notes17a.png");
+    background-size: cover;
+
+}
+
+.notes18 {
+
+    background-image: url("Images & Icons/Notes18a.png");
+    background-size: cover;
+
+}
+
+.notes19 {
+ 
+    background-image: url("Images & Icons/Notes19a.png");
+    background-size: cover;
+
+}
+
+.notes20 {
+    
+    background-image: url("Images & Icons/Notes20a.png");
+    background-size: cover;
+
+}
+
+.notes21 {
+    
+    background-image: url("Images & Icons/Notes21a.png");
+    background-size: cover;
+
+}
+
+.notes22 {
+   
+    background-image: url("Images & Icons/Notes22a.png");
+    background-size: cover;
+
+}
+
+.notes23 {
+  
+    background-image: url("Images & Icons/Notes23a.png");
+    background-size: cover;
+
+}
+
+.notes24 {
+  
+    background-image: url("Images & Icons/Notes24a.png");
+    background-size: cover;
+    visibility: hidden;
+
+}
+
+
+

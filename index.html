@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This website designed to help students explore and master web development skills. The platform offers resources for all the most popular programming languages, along with essential tools and technologies needed for aspiring web developers.">
+    <!-- <title>Learn to code-HelpBuddy.com</title> -->
+    <title>Learn to code-HelpBuddy.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="Images & Icons/favicon.png" type="image/png">
+    <link rel="preload" href="Images & Icons/favicon.png/Images & Icons/favicon.png" as="image" type="image/png">
+    <link rel="icon" href="data:image/png;base64,AAABAAEAEBAQAAAAAA..." type="image/png" />
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+
+
+</head>
+
+<body>
+    <header class="sticky">
+        <div class="topheader flex">
+            <p>"Join our WhatsApp group to collaborate and contribute to this website!"</p>
+            <a href="https://chat.whatsapp.com/JhuIB3s8NLRHhI8m5WMhwX">Join Now</a>
+
+        </div>
+        <nav class="nav1 flex">
+            <div class="toggle-logo flex">
+                <a href="#" class="nav-toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="logo-container">
+                    <img src="Images & Icons/logohelpbuddy.png" alt="logo" class="logo">
+                </div>
+            </div>
+
+            <div class="linksbutton  flex" id="linksbutton">
+                <ul class="anchor-tags flex" id="anchortags">
+                    <li class="active" id="home"><a href="#" id="aab" class="anchor">Home</a></li>
+                    <li class="padding-hover" class="drop-menu-container"><a href="#section2" class="anchor">Courses <i
+                                class="fas fa-caret-down"></i></a>
+                        <div class="drop-container">
+                            <div class="drop-content">
+                                <h3>JavaScript</h3>
+                                <ul class="menu">
+                                    <li><a href="#React">React JS</a></li>
+                                    <li><a href="#Angular">Angular JS</li>
+                                    <li><a target="_blank" onclick="alert('Course currently not available')">JQuery</li>
+                                    <li><a href="#Type">TypeScript</li>
+
+                                </ul>
+                            </div>
+                            <div class="drop-content">
+                                <h3>Backend</h3>
+                                <ul class="menu">
+                                    <li><a href="#Node">Node.js</a></li>
+                                    <li><a href="#Node">Django</li>
+                                    <li><a href="#Type">ExpressJS</li>
+                                    <li><a href="#PJ">PHP</li>
+                                    <li><a href="#PJ">Java</li>
+
+
+                                </ul>
+                            </div>
+                            <div class="drop-content">
+                                <h3>Database</h3>
+                                <ul class="menu">
+                                    <li><a href="#BT">MongoDB</a></li>
+                                    <li><a href="#BT">MySQL</li>
+                                    <li><a href="#BT">PostgreSQL</li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="padding-hover" class="dropa"><a href="#section3" class="anchor">Tutorial <i
+                                class="fas fa-caret-down drop-icon"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="ca"><a href="">C</a>
+                                </li>
+                                <li><a href="">C++</a></li>
+                                <li><a href="">JAVA</a></li>
+                                <li><a href="">JS</a></li>
+                                <li><a href="">HTML</a></li>
+                                <li class="cssa"><a href="">CSS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="padding-hover"><a href="/notes.html" class="anchor">Notes</a></li>
+                    <li class="padding-hover"><a href="/contact.html" class="anchor">Contact</a></li>
+                    <li class="padding-hover"><a href="/Work-with-us.html" class="anchor">Work With Us</a></li>
+
+                </ul>
+                <div class="navbutton flex">
+                    <!-- <div class="dark-mode">
+                        <i class="fa-solid fa-circle-half-stroke"></i>
+                    </div> -->
+                    <a href="#"><button type="button" name="Popup_msg"
+                            onclick="alert('This option is not working right now. We are working on it')"
+                            class="signin">Log
+                            in</button></a>
+                    <a href="#"><button type="button" name="Popup_msg"
+                            onclick="alert('This option is not working right now. We are working on it')"
+                            class="signup">Sign
+                            up</button></a>
+                </div>
+            </div>
+
+
+        </nav>
+        <nav class="nav2 flex">
+            <span class="home-icon">
+                <a href="/index.html"><i class="fa-solid fa-house"></i></a>
+            </span>
+            <div class="ul-container flex">
+
+                <div class="left-icon flex">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+                <ul class="flex">
+                    <li><a href="https://www.geeksforgeeks.org/html-tutorial/?ref=home-articlecards"
+                            target="_blank">HTML</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/css-tutorial/?ref=home-articlecards"
+                            target="_blank">CSS</a></li>
+                    <li><a href="" target="_blank">JS</a></li>
+                    <li><a href="https://www.w3schools.com/c/index.php" target="_blank">C</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/c-plus-plus/?ref=footer" target="_blank">C++</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/java/?ref=home-articlecards" target="_blank">Java</a>
+                    </li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">ReactJS</a></li>
+                    <li><a href="">Php</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/javascript/?ref=footer" target="_blank">JS</a></li>
+                    <li><a href="">Swift</a></li>
+                    <li><a href="">Ruby</a></li>
+                    <li><a href="">NodeJS</a></li>
+                    <li><a href="">Tailwind</a></li>
+                    <li><a href="">Django</a></li>
+                    <li><a href="">Angular</a></li>
+                    <li><a href="">Bootstrap</a></li>
+                    <li><a href="">TypeScript</a></li>
+                    <li><a href="">ExpressJS</a></li>
+                    <li><a href="">MongoDB</a></li>
+                    <li><a href="">MySQL</a></li>
+                    <li><a href="">PostgreSQL</a></li>
+                </ul>
+                <div class="right-icon flex">
+                    <i class="fa-solid fa-greater-than"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="section1">
+            <div class="maindiv1 flex">
+                <div class="divleft">
+                    <h2>Welcome to <span>HelpBuddy.com</span></h2>
+                    <h4>Learn Coding</h4>
+
+                    <p class="Introduction">
+                        At HelpBuddy.com, We simplify complex coding concepts, making it easy
+                        for students to learn and grow in programming. From foundational skills
+                        to advanced techniques, our resources guide you toward becoming a pro
+                        coder.
+                    </p>
+                </div>
+                <img src="Images & Icons/img3.png" alt="image1">
+            </div>
+        </div>
+        <div class="section2" id="section2">
+            <div class="maindiv">
+                <h3>Recommended Courses</h3>
+                <div class="divparent">
+                    <div class="left box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="center box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/tVzUXW6siu0?si=M6T7g3jaqqhEMXIq" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="right box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/-mJFZp84TIY?si=ikUI-4RjJG88GPaz" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="left2 box">
+                        <div class="cbutton">
+                            <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4&list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i"
+                                target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="center2 box">
+                        <div class="cbutton" id="CP">
+                            <a href="https://www.youtube.com/watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop"
+                                target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="right2 box">
+                        <div class="cbutton">
+                            <a href="https://www.youtube.com/watch?v=VTLCoHnyACE&t=7s" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="section3" id="section3">
+            <div class="maindiv">
+                <h3>Programming Languages</h3>
+                <div class="divparent">
+                    <div class="left box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="center box" id="PY">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+                    </div>
+
+                    <div class="right box">
+                        <div class="cbutton" id="PJ">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="left2 box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="center2 box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="right2 box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="left3 box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+                    </div>
+
+
+                    <div class="center3 box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="right3 box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section4" id="Node">
+            <div class="maindiv">
+                <h3>Web Development</h3>
+                <div class="divparent">
+                    <div class="left box">
+                        <div class="cbutton" id="Angular">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="center box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="right box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="left2 box">
+                        <div class="cbutton">
+                            <a href="https://youtu.be/e7sAf4SbS_g?si=jhuse1Rv-YsGYJFX" target="_blank">Start
+                                Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="center2 box" id="Type">
+                        <div class="cbutton">
+                            <a href="#">Start Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="right2 box">
+                        <div class="cbutton">
+                            <a href="#">Start Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="left3 box">
+                        <div class="cbutton">
+                            <a href="#">Start Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="center3 box">
+                        <div class="cbutton" id="BT">
+                            <a href="#">Start Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="right3 box">
+                        <div class="cbutton">
+                            <a href="#">Start Watching</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section5">
+            <div class="maindiv">
+                <h3>Databases</h3>
+                <div class="divparent">
+                    <div class="left box">
+                        <div class="cbutton">
+                            <a href="#">Start Watching</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="center box">
+                        <div class="cbutton">
+                            <a href="#">Start Watching</a>
+                        </div>
+
+                    </div>
+
+                    <div class="right box">
+                        <div class="cbutton">
+                            <a href="#">Start Watching</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <footer>
+        <div class="footer-icons flex">
+
+            <div class="footer-logo">&lt;/&gt; HelpBuddy.com</div>
+            <div class="footer-link-ico flex">
+
+
+                <a href="https://x.com" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/sohailan/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://chat.whatsapp.com/JhuIB3s8NLRHhI8m5WMhwX" target="_blank"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+        </div>
+        <div class="maincontainer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <h2>Languages</h2>
+                    <ul class="list">
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">C++</a></li>
+                        <li><a href="#">PHP</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">GoLang</a></li>
+                        <li><a href="#">R Language</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h2>DSA</h2>
+                    <ul class="list">
+
+                        <li><a href="#">Data Structure</a></li>
+                        <li><a href="#">Algorithums</a></li>
+                        <li><a href="#">DSA for Beginners</a></li>
+                        <li><a href="#">Basic DSA Problems</a></li>
+                        <li><a href="#">DSA Roadmap</a></li>
+                        <li><a href="#">DSA Interview Questions</a></li>
+                        <li><a href="#">Competitive Programming</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h2>Development/Testing</h2>
+                    <ul class="list">
+                        <li><a href="#">Cypress</a></li>
+                        <li><a href="#">JUnit</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">C++</a></li>
+                        <li><a href="#">PHP</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Playwright</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="footer-content">
+                    <h2>DevOps</h2>
+                    <ul class="list">
+
+                        <li><a href="#">Git</a></li>
+                        <li><a href="#">AWS</a></li>
+                        <li><a href="#">Azure</a></li>
+                        <li><a href="#">GCP</a></li>
+                        <li><a href="#">Docker</a></li>
+                        <li><a href="#">Kubernetes</a></li>
+                        <li><a href="#">DevOps Roadmap</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h2>Databases</h2>
+                    <ul class="list">
+
+                        <li><a href="#">SQL</a></li>
+                        <li><a href="#">MySQL</a></li>
+                        <li><a href="#">PostgreSQL</a></li>
+                        <li><a href="#">Redis</a></li>
+                        <li><a href="#">MOngoDB</a></li>
+                        <li><a href="#">GoLang</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer-content">
+                    <h2>Web Technologies</h2>
+                    <ul class="list">
+
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">TypeScript</a></li>
+                        <li><a href="#">ReactJS</a></li>
+                        <li><a href="#">ReactJS</a></li>
+                        <li><a href="#">NextJS</a></li>
+                        <li><a href="#">NodeJS</a></li>
+                        <li><a href="#">Bootstrap</a></li>
+                        <li><a href="#">Tailwind CSS</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h2>Programming
+                        <br>
+                        Languages
+                    </h2>
+                    <ul class="list">
+
+                        <li><a href="#">C Programming with <br>Data Structures</a></li>
+                        <li><a href="#">C++ Programming <br>Course</a></li>
+                        <li><a href="#">DSA for Beginners</a></li>
+                        <li><a href="#">Basic DSA Problems</a></li>
+                        <li><a href="#">Java Programming Course</a></li>
+                        <li><a href="#">Python Full Course</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h2>Clouds/Devops</h2>
+                    <ul class="list">
+
+                        <li><a href="#">DevOps Engineering</a></li>
+                        <li><a href="#">AWS Solutions <br>Architect</a></li>
+                        <li><a href="#">Salesforce Certified <br> Administrator Course</a></li>
+                        <li><a href="#">Microsoft Azure</a></li>
+                        <li><a href="#">IBM Cloud</a></li>
+                        <li><a href="#">Google Cloud Platform <br> (GCP)</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="copyright">
+                <p>&copy; 2025 HelpBuddy.com</p>
+            </div>
+
+    </footer>
+
+
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const anchortags = document.getElementById('anchortags');
+
+        toggleButton.addEventListener('click', () => {
+            anchortags.classList.toggle('onclick');
+        })
+    </script>
+
+</body>
+
+</html>
