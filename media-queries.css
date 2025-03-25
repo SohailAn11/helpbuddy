@@ -1124,13 +1124,14 @@
         justify-content: flex-start;
         flex-wrap: wrap;
         height: 40px;
+        text-align: center;
 
     }
 
     .topheader p {
         color: #ffffff;
         font-family: "Mulish", serif;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 15px;
         padding-left: 3px;
         
